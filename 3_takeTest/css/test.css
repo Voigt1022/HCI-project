@@ -1,0 +1,165 @@
+body {
+    /* width: 1000px; */
+    /* height: 800px; */
+    background-size: 100%;
+    background-color: #0173B1;
+    /* background: linear-gradient(#e66465, #9198e5); */
+    /* background: linear-gradient(to top right, blue, pink); */
+}
+
+#head {
+    width: 1200px;
+    height: 100px;
+
+    position: absolute;
+    margin: auto;
+    left: 0px;
+    right: 0px;
+    margin-top: 50px;
+    border-radius: 8px;
+
+
+    background-color: rgba(19, 27, 27, 0.5);
+
+    color: white;
+    text-align: center;
+    font-size: 60px;
+}
+
+#test_frame {
+    width: 1000px;
+    height: 501px;
+    padding: 12px;
+
+    position: absolute;
+    margin: auto;
+    left: 0px;
+    right: 0px;
+    margin-top: 200px;
+
+
+
+
+    background-color: rgba(19, 27, 27, 0.5);
+    border-radius: 10px;
+    text-align: center;
+}
+
+#test_head {
+    height: 180px;
+    width: 1000px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    background-color: white;
+
+}
+
+#test_left {
+    height: 180px;
+    width: 190px;
+    margin-top: 10px;
+    line-height: 40px; /*设置line-height与父级元素的height相等*/
+    /* background-color: blue; */
+    float: left;
+}
+
+
+#question_answered {
+    height: 40px;
+    width: 190px;
+    margin: 1px;
+    background-color: gray;
+    font-size: 10px;
+}
+
+#test_right {
+    height: 180px;
+    width: 800px;
+    margin-top: 10px;
+    margin-left:10px;
+    float: left;
+}
+
+#test_foot {
+    height: 30px;
+    width: 1000px;
+    margin-top: 471px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    background-color: white;
+
+}
+
+#test_question_head {
+    width: 800px;
+    height: 44px;;
+    margin-top: 1px;
+    background-color: rgb(192, 192, 192);
+
+    text-align: left;
+}
+
+#test_question_head_text {
+    width: 100px;
+    float: left;
+}
+
+#test_question{
+    width: 800px;
+    height: 80px;;
+    margin-top: 1px;
+    background-color: rgb(231, 231, 231);
+
+    text-align: left;
+}
+
+#test_question_text {
+    width: 200px;
+    float: left;
+}
+
+#test_question_btn {
+    width: 100px;
+    float: left;
+    /* margin-left: 10px; */
+    /* text-align: center; */
+}
+
+#Q1 {
+    /* margin-left: 50x; */
+    margin-top: 34px;
+}
+
+#Q2 {
+    /* margin-left: 50x; */
+    margin-top: 34px;
+}
+
+#Q3 {
+    /* margin-left: 50x; */
+    margin-top: 34px;
+}
+
+#Q4 {
+    /* margin-left: 50x; */
+    margin-top: 34px;
+}
+
+#Q5 {
+    /* margin-left: 50x; */
+    margin-top: 34px;
+}
+
+.Q_part{
+  height: 40px;
+  width: 190px;
+  margin: 1px;
+  background-color: gray;
+}
+
+.Q_full{
+  height: 40px;
+  width: 190px;
+  margin: 1px;
+  background-color: green;
+}

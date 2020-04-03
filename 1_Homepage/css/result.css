@@ -1,0 +1,141 @@
+body {
+    /* width: 1000px; */
+    /* height: 800px; */
+    background-size: 100%;
+    background-color: #0173B1;
+    /* background: linear-gradient(#e66465, #9198e5); */
+    /* background: linear-gradient(to top right, blue, pink); */
+}
+
+#head {
+    width: 1200px;
+    height: 100px;
+
+    position: absolute;
+    margin: auto;
+    left: 0px;
+    right: 0px;
+    margin-top: 50px;
+
+    border-radius: 10px;
+    
+    background-color: rgba(19, 27, 27, 0.5);
+
+    color: white;
+    text-align: center;
+}
+
+#top {
+    text-align: left;
+    margin-left: 15px;
+    margin-top:30px;
+    font-size: 55px;
+    position: relative;
+        bottom: 15px;
+    float:left;
+}
+
+#button {
+    height: 55px;
+    width: 120px;
+    border-radius: 10px;
+    font-family: Georgia;
+    font-weight: bold;
+    color: #0173B1;
+}
+
+#button1 {
+    height: 55px;
+    width: 85px;
+    border-radius: 10px;
+
+    margin-left: 50px;
+    margin-top: 25px;
+    float:left;
+}
+
+
+#user {
+    height: 55px;
+    width: 85px;
+    border-radius: 10px;
+
+    margin-left: 250px;
+    padding-top: 15px;
+    /* margin-left: 50px; */
+    margin-top: 25px;
+    float:left;
+}
+
+
+
+ 
+#res_frame {
+    width: 1000px;
+    height: 840px;
+    padding: 12px;
+
+    position: absolute;
+    margin: auto;
+    left: 0px;
+    right: 0px;
+    margin-top: 200px;
+
+
+
+
+    background-color: rgba(19, 27, 27, 0.5);
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+.res_area {
+    width: 1000px;
+    height: 260px;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    background-color: rgba(19, 27, 27, 0.5);
+    border-radius: 10px;
+    float: left;
+}
+
+#resImg {
+    border-radius: 10px;
+}
+
+
+.results {
+    height: 180px;
+    width: 950px;
+    position: relative;
+        bottom: 50px;
+        
+}
+
+
+
+h2 {
+    color: #0173B1;
+}
+
+h4 {
+    text-align: left;
+    margin-left: 30px;
+    position: relative;
+        bottom: 6px;
+    color: white;
+}
+
+p {
+    text-align: right;
+    margin-right: 35px;
+    position: relative;
+        bottom: 45px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+

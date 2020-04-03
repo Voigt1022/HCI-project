@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Required Information</title>
+    <link rel="stylesheet" type="text/css" href="css/login.css" />
+    <script type="text/javascript" src="P6.js"></script>
+</head>
+
+<body>
+    <div id="welcome">
+        <a onClick="location.href='../1_Homepage/0_homePage.html'">
+            <img src="../return.png" alt="return" width="41" height="41">
+        </a>
+        Welcome Back
+    </div>
+    <div id="login_frame">
+
+        <p class="label_input">E-mail:</p>
+        <input type="email" id="username" class="text_field" />
+        <p class="label_input">Password:</p>
+        <input type="password" id="password" class="text_field" />
+        <p class="label_input">Phone:</p>
+        <input type="text" id="phone" class="text_field" />
+        <div id="login_control">
+            <input type="button" id="btn_login" value="Create an account" onClick="login()" />
+        </div>
+    </div>
+</body>
+
+</html>

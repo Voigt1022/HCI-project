@@ -1,0 +1,133 @@
+body {
+    background-size: 100%;
+    background-color: #0173B1;
+}
+
+#head {
+    width: 1200px;
+    height: 100px;
+
+    position: absolute;
+    margin: auto;
+    left: 0px;
+    right: 0px;
+    margin-top: 50px;
+
+    background-color: rgba(19, 27, 27, 0.5);
+
+    border-radius: 10px;
+
+    color: white;
+    text-align: center;
+}
+
+#resDetail_frame {
+    width: 1000px;
+    height: 1100px;
+    padding: 12px;
+
+    position: absolute;
+    margin: auto;
+    left: 0px;
+    right: 0px;
+    margin-top: 200px;
+
+    background-color: rgba(19, 27, 27, 0.5);
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+
+
+h1 {
+    text-align: left;
+    margin-left: 15px;
+    margin-bottom: 0px;;
+    font-size: 55px;
+    position: relative;
+    bottom: 15px;
+}
+
+#reeImage {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;;
+}
+
+#resDetail {
+    width: 1000px;
+    height: 560px;
+
+    background-color: rgba(19, 27, 27, 0.5);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    float:left;
+}
+/* 
+#list_left {
+  width: 200px;
+  height: 80px;
+} */
+
+#btn_left {
+    width: 200px;
+    font-size: 30px;
+
+}
+#btn_left:hover {
+  background-color: #0173B1; /* Green */
+  border-radius: 6px;
+  color: white;
+}
+
+
+
+
+
+
+section{
+  display: -webkit-flex;
+  display: flex;
+}
+
+
+nav {
+  -webkit-flex:1;
+  -ms-flex:1;
+  flex: 1;
+  background: #ccc;
+  padding: 20px;
+}
+/* 
+nav ul {
+  list-style-type: none;
+  border-width: 2px;
+  border-style: ridge;
+  padding: 0;
+  margin-top: 0px;
+  margin-bottom: 0px;;
+} */
+/* nav li{
+  font-style: italic;
+  font-size: 5ex;
+  font-weight: bold;
+} */
+
+article {
+  -webkit-flex:3;
+  -ms-flex:3;
+  flex: 3;
+  background-color: #f1f1f1;
+  padding: 10px; /* only for demonstration, should be removed */
+}
+
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
