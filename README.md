@@ -1,8 +1,11 @@
 # Finding a Career Path
 
 Contributor: Nina Pagano, Yutao Wu, Zhihan Zhou, Sizhe Li
+
 Task: The task that our group will be implementing in our P7 prototype is our final task scenario. This scenario is the results screen after the questionnaire portion of the career test is completed. The user will have to navigate from the results page that gives an overview of their scores to a broader, more in depth look at the results to find information on other potential careers and their descriptions, as well as links to resources based on the resulted careers. 
+
 Component: A component our group decided to use for this prototype is interactive data selection. We believe that this component is necessary for our prototype’s task scenario in terms of promoting links to resources regarding career and major opportunities based on the results.
+
 Platform: Chrome
 
 # Design Summary
